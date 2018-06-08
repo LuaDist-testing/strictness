@@ -1,2 +1,5 @@
 *.bat
-test*
+*.dll
+*.exe
+ldoc*
+config*
