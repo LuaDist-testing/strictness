@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "strictness"
-version = "0.2.0-1"
--- LuaDist source
+version = "0.3.0-1"
 source = {
-  tag = "0.2.0-1",
-  url = "git://github.com/LuaDist-testing/strictness.git"
+   url = "https://github.com/Yonaba/strictness/archive/strictness-0.3.0-1.tar.gz",
+   dir = "strictness-strictness-0.3.0-1"
 }
--- Original source
--- source = {
---    url = "https://github.com/Yonaba/strictness/archive/strictness-0.2.0-1.tar.gz",
---    dir = "strictness-strictness-0.2.0-1"
--- }
 description = {
    summary = "A strict mode for Lua",
    detailed = [[
@@ -24,7 +16,7 @@ description = {
    license = "MIT <http://www.opensource.org/licenses/mit-license.php>"
 }
 dependencies = {
-   "lua >= 5.1, <= 5.2"
+   "lua >= 5.1, <= 5.3"
 }
 build = {
   type = "builtin",
